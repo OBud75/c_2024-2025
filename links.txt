@@ -1,0 +1,17 @@
+Fondamentaux
+  - Comment fonctionne un ordinateur (éléctronique):
+      https://youtube.com/playlist?list=PLFt_AvWsXl0dPhqVsKt1Ni_46ARyiCGSq&si=GJxbEN2z3OCe3GoF
+      https://youtu.be/bkPuQD3R200?si=3uZm3LE_a34SHjBu
+      https://youtu.be/Z5JC9Ve1sfI?si=bphVQRQfrcPcwJCB
+      https://www.nand2tetris.org/
+
+Cours complets
+  - Introductions aux Computer Sciences
+      https://youtu.be/3LPJfIKxwWc?si=JSgB1V4LyGg7X0bQ
+  - Programming paradigms
+      https://www.youtube.com/playlist?list=PL9D558D49CA734A02
+
+Visualisation et débug
+  - https://pythontutor.com/
+  - https://valgrind.org/docs/manual/quick-start.html
+  - https://www.youtube.com/watch?v=ZZuD6iUe3Pc

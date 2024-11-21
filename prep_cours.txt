@@ -1,0 +1,14 @@
+'%d' et '%i' se comportent de manière similaire avec printf()
+Il n'y a aucune différence entre les spécificateurs de format %i et %d lorsqu'ils sont utilisés avec printf.
+
+
+Le comportement de %d et %i est différent avec scanf()
+%d suppose la base 10 tandis que %i détecte automatiquement la base.
+
+Par conséquent, les deux spécificateurs se comportent différemment lorsqu'ils sont utilisés avec une fonction d'entrée. Ainsi, la valeur de 012 serait 10 avec %i mais 12 avec %d.
+
+%d prend une valeur entière comme un entier décimal signé, c'est-à-dire qu'il prend des valeurs négatives ainsi que des valeurs positives, mais les valeurs doivent être en décimal, sinon il imprimera une valeur erronée.
+( Remarque : si l'entrée est au format octal comme 012, alors %d ignorera 0 et prendra l'entrée comme 12).
+ 
+%i prend une valeur entière comme valeur entière de type décimal, hexadécimal ou octal.
+Pour saisir une valeur au format hexadécimal, la valeur doit être fournie en la faisant précéder de « 0x » et pour saisir une valeur au format octal, la valeur doit être fournie en la faisant précéder de « 0 ».
