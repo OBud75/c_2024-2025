@@ -1,6 +1,7 @@
-khalil El Achkhem: https://github.com/elachkham/dev-c.git
-https://github.com/Anyes-hm/C Anyes HAMI
-https://github.com/Anyes-hm/C-dev Anyes HAMI
+https://github.com/AurelienLELEU/Cprog
+https://github.com/elachkham/dev-c.git : khalil El Achkhem
+https://github.com/Anyes-hm/C : Anyes HAMI
+https://github.com/Anyes-hm/C-dev : Anyes HAMI
 https://github.com/ncls-brn
 https://github.com/zeinablouati/Dev-C-C-.git : zeinab louati
 https://github.com/Aiko781/Dev-C : Chaves Adrien
