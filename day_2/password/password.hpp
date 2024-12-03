@@ -1,4 +1,11 @@
+#ifndef PASSWORD_HPP
+#define PASSWORD_HPP
+
 #include <string>
+#include <cassert>
+#include <memory>
+#include <iostream>
+
 
 class Password {
     private:
@@ -7,10 +14,11 @@ class Password {
         void encrypt(const std::string &password);
 
     public:
-        Password(std::string &password, bool is_encrypted=false);
-        std::string str();
-
+        Password(const std::string &password, bool is_encrypted = false);
+        std::string str() const;
         bool operator==(const std::string &str) const;
         bool operator==(const Password &other) const;
         friend std::ostream &operator<<(std::ostream &os, const Password &p);
 };
+
+#endif
