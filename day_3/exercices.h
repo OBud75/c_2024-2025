@@ -23,8 +23,7 @@ void sort(
     void *array[],
     int nb_of_elems_in_array,
     size_t elem_size,
-    int (*compare_fnc)(void *, void *),
-    int (*swap_fnc)(void *, void *, int)){};
+    int (*compare_fnc)(void *, void *)){};
 
 int is_in_array(void *obj_to_find,
                 void *array[],

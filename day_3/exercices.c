@@ -46,7 +46,6 @@ int main() {
         &people,
         sizeof(people) / sizeof(Person),
         sizeof(Person),
-        is_greater,
-        swap
+        is_greater
     );
 }
