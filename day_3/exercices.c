@@ -28,9 +28,25 @@ void linear_search() {
     );
     if (found == 1) {printf("B1 is in the array.\n");};
 }
-
+void generic_swap() {
+    Person person1 = {50};
+    Person person2 = {25};
+    swap(&person1, &person2, sizeof(Person));
+    Book b1 = {50};
+    Book b2 = {25};
+    swap(&b1, &b2, sizeof(Book));
+};
 
 int main() {
     eq_function();
     linear_search();
+    generic_swap();
+    Person people[] = {{20}, {50}, {188}, {2}};
+    sort(
+        &people,
+        sizeof(people) / sizeof(Person),
+        sizeof(Person),
+        is_greater,
+        swap
+    );
 }

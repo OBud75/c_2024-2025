@@ -12,6 +12,20 @@ int are_equals(
     void *obj1, void *obj2,
     int (*compare_fnc)(void *, void *)) {};
 
+int is_greater(
+    // return 1 if obj1 is greater than obj2
+    void *obj1, void *obj2,
+    int (*compare_fnc)(void *, void *)) {};
+
+void swap(void *obj1, void *obj2, size_t size) {};
+
+void sort(
+    void *array[],
+    int nb_of_elems_in_array,
+    size_t elem_size,
+    int (*compare_fnc)(void *, void *),
+    int (*swap_fnc)(void *, void *, int)){};
+
 int is_in_array(void *obj_to_find,
                 void *array[],
                 int nb_of_elems_in_array,
