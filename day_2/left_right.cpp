@@ -3,7 +3,6 @@
 
 using namespace std;
 
-
 int *get_back_value_ptr(int *str) {
     printf("get_back_value_ptr: %p\n", str);
     return str;
